@@ -1,0 +1,32 @@
+{
+  "name": "eth-docker-project",
+  "version": "1.0.0",
+  "description": "Develop a Docker Image using Ethereum blockchain components and test using Smart Contract",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidRad18/Develop-a-docker-image-using-Ethereum-blockchain-components-and-test-using-smart-contract.git"
+  },
+  "keywords": [],
+  "author": "Siddh Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SidRad18/Develop-a-docker-image-using-Ethereum-blockchain-components-and-test-using-smart-contract/issues"
+  },
+  "homepage": "https://github.com/SidRad18/Develop-a-docker-image-using-Ethereum-blockchain-components-and-test-using-smart-contract#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^24.3.1",
+    "chai": "^4.3.7",
+    "hardhat": "^2.26.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

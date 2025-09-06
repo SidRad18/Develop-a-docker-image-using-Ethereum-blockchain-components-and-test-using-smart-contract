@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  eth-node:
+    build: .
+    ports:
+      - "8545:8545"
+    volumes:
+      - ./:/usr/src/app
+    command: npx hardhat node
+
+  tester:
+    build: .
+    depends_on:
+      - eth-node
+    volumes:
+      - ./:/usr/src/app
+    command: bash -c "npx hardhat test --network localhost"
